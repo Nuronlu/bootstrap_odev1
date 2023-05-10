@@ -1,0 +1,29 @@
+.ul-type {
+    font-weight: bold;
+    text-align: center;
+
+}
+
+
+.li-type {
+    font-weight: normal;
+    text-align: left 
+    
+}
+
+
+.bg-image {
+    background-image: url('../img/img1.jpg');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30vh;
+    color: rgb(241, 79, 79);
+    text-align: center;
+    
+}
+
+aside {
+    position: relative;
+}
+

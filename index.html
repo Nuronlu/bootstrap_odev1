@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    
+    <!-- bootsrap icons cdn kullanimi ~  bununla <i> icinde ekledigimiz iconlar, kutuphaneden cekilebilir olacak. -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+    <!-- ozellestirmeler icin style.css dosyasinin referansi -->
+    <link rel="stylesheet" href="css/style.css">
+
+
+    <title>Anasayfa | MK </title>
+  </head>
+  <body>
+    <main class="container">
+        <nav>
+
+            <div class="row"> 
+            <!-- nav bolumunu 12lik sistem yapici -->
+
+                <!-- anasayfa, urunler, hakkimizda bolumlerini iceren 8lik bolum -->
+                <div class="col-sm-8 .bg-gradient-success">
+                    <!-- bu bolumu kendi icinde 3 parcaya ayirmak icin claslarina "col-sm-4" ekledik -->
+                    <div class="row">
+                        <!-- halihazirda anasayfada oldugumuz icin bu bolumu link yapmadim -->
+                        <p class="col-sm-4" href="index.html">Anasayfa</p>
+                        <a class="col-sm-4"  href="products.html">Ozel Ders</a>
+                        <a class="col-sm-4"  href="about-us.html">Hakkimizda</a>
+                    </div>
+                </div>
+
+                <!-- arama bolumunu iceren 4luk bolum. div yerine buton formatinda -->
+                <button class="col-sm-4 color:"rgb(241, 79, 79)">
+                    <!-- icon ekleme-img dosyasindan (External image)-->
+                    <!-- bu iconu image olarak aldigi icin, buyutebilirsin fakat rengini degistiremezsin. -->
+                    <img src="img/search.svg" alt=""> Ara
+                </button>
+
+            </div>
+        </nav>
+
+        <br>
+        <hr>
+
+
+        <!-- header bolumunde arkaplana img eklemek icin inline css etiket kullandim (sadece ilgili satira style ekledim. ek ozellikler icin style css dosyasina .bg-image etiketi tanimlayip oraya gircem ve burada referans vercem.) -->
+
+        <header>
+            <div class="bg-image">
+                <h1 class="text-center">Muzik Kutusu</h1>
+
+                <p style="margin-top: 5% ;">Hosgeldiniz! Muzik Kutusu'nda aradiginiz enstrumani bulabilir hatta kisisellestirebilirsiniz.</p>
+            </div>
+        </header>
+
+
+        <hr>
+
+        <!-- ust satir haricinde kalan kisim icin ayri bir row olusturuldu-12lik sisteme donusturme -->
+        <div> 
+            <div class="row">
+                <aside class="col-sm-4 shadow p-3 mb-5 bg-white rounded">
+                    <h2 class="text-center">Katalog</h2>
+                    <!-- u ve li lerin stylelari style.css te belirlendi -->
+                    <ul class="ul-type list-group"> Gitarlar
+                        <li class="li-type list-group-item">
+                            <a href="#kg">Klasik Gitar</a>
+                        </li>
+                        <li class="li-type list-group-item"> 
+                            <a href="#uk">Ukulele</a>
+                            </li>
+                        <li class="li-type list-group-item">
+                            <a href="#ag">Akustik Gitar</a>
+                        </li>
+                        
+                    </ul>
+
+                    <ul class="ul-type list-group"> Davullar
+                        <li class="li-type list-group-item"> 
+                            <a href="#ad">Akustik Davul</a>
+                        </li>
+                        <li class="li-type list-group-item">Perkusyon</li>
+                        <li class="li-type list-group-item">Zil ve Baget</li>
+                        
+                    </ul>
+
+                    <ul class="ul-type list-group"> Nefesliler
+                        <li class="li-type list-group-item">Yan Flut</li>
+                        <li class="li-type list-group-item">Klarnet</li>
+                        <li class="li-type list-group-item">Mizika</li>
+                        <li class="li-type list-group-item">Saksafon</li>
+                    
+                    </ul>
+
+                    <ul class="ul-type list-group"> Yayli
+                        <li class="li-type list-group-item">Keman</li>
+                        <li class="li-type list-group-item">Viyola</li>
+                        <li class="li-type list-group-item">Teller</li>
+                    
+                    </ul>
+
+                    <ul class="ul-type list-group"> Aksesuar ve Bakim
+                        <li class="li-type list-group-item"> <a href="#ab">Aksesuar ve Bakim</a> </li>
+                    </ul>
+                </aside>
+
+
+                <section class="col-sm-8 shadow-lg bg-white rounded">
+                    <h2 class="text-center">Tum Urunler</h2>
+                    <h3 id="kg"> Klasik Gitar</h3>
+                    <div class="row col-sm mx-auto">
+                        
+                        <img height="180px" src="https://www.do-re.com.tr/taylor-academy12e-n-elektro-klasik-gitar-natural-9e5b25dad4cf84ff8f8dce0bab83f28d-95c3d259fd9f7e9e473d659d0e45e2ba-max-pp.jpg" alt="Klasik1">
+
+                        <img height="180px" src="https://www.do-re.com.tr/cordoba-mini-ii-fmh-klasik-gitar-flamed-maun-28a4a16606f23c367d0cac4881fb3411-8e521d6cbe777af7a757dc98edd5f8bb-max-pp.jpg" alt="Klasik2">
+
+                        <img height="180px" src="https://www.do-re.com.tr/fenix-fx-cg811bk-3-4-klasik-gitar-siyah-cb4778c46490950bb195dbc8db2df225-8a6a8f439e8d31dd08d4e0f70503c242-max-pp.jpg" alt="Klasik23">
+                    </div>
+
+                    <hr>
+
+                    <h3 id="uk">Ukulele</h3>
+                    <div class="row col-sm-auto">
+                        
+                        <img height="180px" src="https://www.do-re.com.tr/kala-bamboo-top-ukadelic-soprano-ukulele-bamboo-10f9dfa94604c6aaa4e657bf2e12548b-497717487b17ce2e09f56677b24b72cb-max-pp.jpg" alt="Ukulele1">
+
+                        <img height="180px" src="https://www.do-re.com.tr/mahalo-ml2sd-concert-ukulele-sand-dune-abc52989fad7af2e15f7af00cb65ced7-04ffbab74c8fff69c0d2ba8976515828-max-pp.jpg" alt="Ukulele2">
+
+                        <img height="180px" src="https://www.do-re.com.tr/mahalo-ml2sg-concert-ukulele-sea-green-adfc6b7d51edcc0c43fa11117bf4d997-818b3512f5902709f49bdf4205b58c8f-max-pp.jpg" alt="Ukulele3">
+
+                    </div>
+
+                    <hr>
+
+                    
+                    <h3 id="ag">Akustik Gitar</h3>
+                    
+                    <div class="row col-sm-auto">
+                        
+                        <img height="180px" src="https://www.do-re.com.tr/yamaha-cpx600-medium-jumbo-elektro-akustik-gitar-root-beer-e15df72fb6c9cd21139f03eeff615e4b-1489908f216be042be7834859a270634-max-pp.jpg" alt="AkustikG1">
+
+                        <img height="180px" src="https://www.do-re.com.tr/guild-om-260ce-deluxe-limited-elektro-akustik-gitar-trans-black-burst-c43090d7f18075553ef3f1cb44eb8864-53b8c3248fd6475285780b6fde12e398-max-pp.jpg" alt="AkustikG2">
+
+                        <img height="180px" src="https://www.do-re.com.tr/guild-a-20-marley-akustik-gitar-natural-satin-0366a80cfda3f3f2799f9aab24bea44c-8c8dab269d032f32a8418a067ca1e511-max-pp.jpg" alt="AkustikG3">
+
+                    </div>
+                    <hr>
+
+                    <h3 id="ad">Akustik Davul</h3>
+
+                    <div class="row col-sm-auto">
+                        
+                        <img height="180px" src="https://www.do-re.com.tr/jinbao-3-parca-junior-davul-seti-kirmizi-6508fe2a06d659b146986481fbdb8b03-0d9d35b23db91e4130f504e38d93e08d-max-pp.jpg" alt="AkustikD1">
+
+                        <img height="180px" src="https://www.do-re.com.tr/jinbao-3-parca-junior-davul-seti-mavi-9a308431ea10ff0582ec3f1aa4542347-4015773fb092f07de497122c80c44f2b-max-pp.jpg" alt="AkustikD2">
+
+                        <img height="180px" src="https://www.do-re.com.tr/yamaha-hybrid-maple-akustik-davul-vintage-natural-68d4b442966ac44958001e0780e9e997-a3d585dcf243afe73499331afcc20cfb-max-pp.jpg" alt="AkustikD3">
+
+                    </div>
+                    <hr>
+
+                    <!-- AKSESUAR BAKIM BURADA-KARISIK -->
+                    <h3 id="ab">Aksesuar ve Bakim</h3>
+                    <div class="row col-sm-auto">
+                        
+                        <img height="180px" src="https://www.do-re.com.tr/cherub-wmt578rc-metronome-tuner-d6d9a02715087ffd4f6255053404ed5d-09acba1bd7cb0d4842c1772bd582f334-max-pp.jpg" alt="metronom">
+
+                        <img height="180px" src="https://www.do-re.com.tr/donner-duvar-gitar-askisi-3lu-set-c452d468d5365cc6d291699f1cbc955b-eb023ee3672bb1bd3dd818a11aed74ff-max-pp.jpg" alt="gitaraskisi">
+
+                        <img height="180px" src="https://www.do-re.com.tr/strukture-s6p48-pedal-ara-kablosu-15-cm-7bd21c137e8f9cca0c0b1926f01c2e1b-d49c3e1808074c26a882a0e41d020567-max-pp.jpg" alt="pedalkablo">
+
+                    </div>
+        
+
+
+                </section>
+            </div>
+        </div>
+        
+
+        <br>
+
+        <!-- next page - center -->
+        <div class="row justify-content-center">
+            <button class="col-sm-4 btn-outline-info">
+                Sonraki sayfa <i class="bi-arrow-bar-right"></i>
+            </button>
+        </div>
+
+        <br>
+        <hr>
+
+    
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+  </body>
+
+  <footer class="text-white bg-dark shadow p-3 mb-5 rounded text-center">
+    <p>Bize ulasin: </p>
+    <div class="row">
+        <!-- bu row icinde her bir birim 12lik sistem icinde 4luk yer tutacak: "col-sm-4" -->
+
+        <!-- <i class="bicon-adi"></i> seklindeki kullanim icin <head> kismina link olarak cdn referansi eklenmeli.-->
+
+        <a class="col-sm-4">
+            <i class="bi-geo-alt"></i> Adres
+        </a>
+
+        <a class="col-sm-4">
+            <i class="bi-phone"></i> Telefon
+        </a>
+
+        <a class="col-sm-4">
+            <i class="bi-envelope-at"></i> E-mail
+        </a>
+
+    </div>
+  </footer>
+
+</main>
+</html>
